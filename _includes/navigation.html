@@ -1,0 +1,14 @@
+<!-- 
+Navigation bar. 
+Goes through items in _data/navigation.yml setting href to the listed 'link' and displays the name listed under 'name'.
+For each entry it checks if the 'title' of the current page matches the 'name' and marks it as the current page in red.
+-->
+<nav>
+	<ul class="nav-links">
+		{% for item in site.data.navigation %}
+			<li><a href="{{ item.link }}" {% if page.title == item.name %} class="active-page"{% endif %}>
+				{{ item.name }}
+			</a></li>
+		{% endfor %}
+	</ul>
+</nav>

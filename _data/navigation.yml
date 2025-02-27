@@ -1,0 +1,10 @@
+# List of items to be listed in the navigation bar.
+# 'name' is to match the 'title' of a page and 'link' is the relative path to the page.
+- name: Home
+  link: /
+- name: Blog
+  link: /blog
+- name: About
+  link: /about
+- name: Contact
+  link: /contact

@@ -1,0 +1,23 @@
+# Lists of projects split by category.
+- category: Workflows
+  projects:
+    - name: Population Genetics
+      url: https://github.com/jeppebayer/population_genetics
+      description: My main project within the Centre for Ecological Genetics. This work concerns the demographic history and population genetics measurements of population and species of collembola, beetles and spiders sampled across Denmark. This project has different workflows attached to it, such as alignment of re-sequencing data, variant calling, inference of ancestral alleles, and measures of genetic load.
+    - name: Genome Assembly and Annotation
+      url: https://github.com/jeppebayer/genome_assembly_and_annotation
+      descripption: Workflows for different parts of generating annotated reference quality genomes. Covers draft genome assembly, Hi-C scaffolding, repeat masking, and gene annotation.
+    - name: Enchytraeus albidus
+      url: https://github.com/jeppebayer/enchytraeus_albidus
+      description: Collaboration in which my responsibilities have been focused on the construction of a reference genome for Enchytraeus albidus and the variant calling.
+    - name: Museomics
+      url: https://github.com/jeppebayer/museomics
+      description: Work concerning the larger museomics project within the Centre for Ecological Genetics. This work is focus on data preparation.
+    - name: Faster X Evolution
+      url: https://github.com/jeppebayer/faster_x_evolution
+      description: Comparison of sub-social and social spider species in the genus Stegodyphus with the aim to answer the questions; (1) Is faster X evolution caused by adaptation of beneficial recessive variants on the X chromosomes or by drift due to lower effective population size of the X chromosomes? (2) Does the proportion of substitutions caused by selection and drift vary between social and sub-social species?
+- category: Web
+  projects:
+    - name: jeppebayer.github.io
+      url: https://github.com/jeppebayer/jeppebayer.github.io
+      description: This website!
