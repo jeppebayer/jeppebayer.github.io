@@ -11,3 +11,9 @@ permalink: /
 ## Wipe your feet and come on in!
 
 Hello to whoever found their way here! My name is Jeppe and this website is intended to be a hub for all things me. This will include tutorials, projects links and descriptions, and possibly some blog posts.
+
+```bash
+for i in ${array[@]}; do
+	echo "$i"
+done
+```

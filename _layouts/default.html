@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    {% feed_meta %}
-    {% seo %}
-</head>
-<body>
-    {% include navigation.html %}
-    <main class="page-content">
-        {{ content }}
-    </main>
-    <footer>
-        Proudly made with Jekyll
-    </footer>
-</body>
+    <head>
+	    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            {{ page.title }} - {{ site.title }}
+        </title>
+        {% feed_meta %}
+        {% seo %}
+    </head>
+    <body>
+        {% include navigation.html %}
+        <main class="page-content">
+            {{ content }}
+        </main>
+        <footer>
+            <img src="/assets/images/logos/au_logo/aulogo_uk_var3_blue.png" alt="Aarhus University Logo" />
+            <img src="/assets/images/logos/ecogenetics_logo/logo_ecogentics_var1_colour.png" alt="Centre for Ecological Genetics Logo" />
+        </footer>
+    </body>
 </html>
